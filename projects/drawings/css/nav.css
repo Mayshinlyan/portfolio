@@ -1,0 +1,33 @@
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+    z-index: 99;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 30px;
+    line-height: 50px;
+    color: white;
+}
+
+
+.menu a:hover, .menu a:focus{
+  color: red;
+}
+
+.menu .active{
+  font-size: 30px;
+  color: red;
+}
+
+
+
+
+
+
+
+
+
